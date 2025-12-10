@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="mb-4">Student Details</h1>
+        <h1 class="mb-4 text-center">Student Details</h1>
         
         <div class="card">
             <div class="card-body">
@@ -21,7 +21,7 @@
             </div>
         </div>
         
-        <a href="/students" class="btn btn-primary mt-3">Back to Student List</a>
+        <a href="/students" class="btn btn-warning mt-3">Back to Student List</a>
     </div>
 </body>
 </html>

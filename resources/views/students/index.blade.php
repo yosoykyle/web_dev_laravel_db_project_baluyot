@@ -8,10 +8,10 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="mb-4">Student List</h1>
+        <h1 class="text-center mb-4 ">Student List</h1>
         
         @if($students->isEmpty())
-            <p>No students found.</p>
+            <p class="text-center text-danger">No students found on the database 🐟.</p>
         @else
             <table class="table table-bordered">
                 <thead>
@@ -33,7 +33,7 @@
                             <td>{{ $student->course }}</td>
                             <td>{{ $student->enrollment_date->format('Y-m-d') }}</td>
                             <td>
-                                <a href="/students/{{ $student->id }}" class="btn btn-primary btn-sm">View</a>
+                                <a href="/students/{{ $student->id }}" class="btn btn-warning btn-sm">View</a>
                             </td>
                         </tr>
                     @endforeach
