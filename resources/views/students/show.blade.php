@@ -17,7 +17,7 @@
                 <p><strong>Email:</strong> {{ $student->email }}</p>
                 <p><strong>Course:</strong> {{ $student->course }}</p>
                 <p><strong>Enrollment Date:</strong> {{ $student->enrollment_date->format('F d, Y') }}</p>
-                <p><strong>Created At:</strong> {{ $student->created_at->format('F d, Y H:i:s') }}</p>
+                <!-- <p><strong>Created At:</strong> {{ $student->created_at->format('F d, Y H:i:s') }}</p> -->
             </div>
         </div>
         
