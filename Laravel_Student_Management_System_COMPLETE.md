@@ -330,7 +330,7 @@ mkdir -p resources/views/students
 </html>
 ```
 
-## 9. Add Sample Data (Optional)
+## 9. Add Sample Data
 
 To test your application, you can add sample data using Laravel Tinker:
 
